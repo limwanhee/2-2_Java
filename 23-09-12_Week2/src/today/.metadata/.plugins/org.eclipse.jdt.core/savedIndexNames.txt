@@ -1,1 +1,0 @@
-INDEX VERSION 1.134+D:\202207016\2-2_Java\23-09-12_Week2\src\today\.metadata\.plugins\org.eclipse.jdt.core
