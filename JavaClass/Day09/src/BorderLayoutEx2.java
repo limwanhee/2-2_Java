@@ -38,7 +38,7 @@ public class BorderLayoutEx2 extends JFrame{
 		add("Center", pan2);
 		add("South", pan3);
 		
-		setSize(300, 200);
+		setSize(300, 150);
 		setVisible(true);
 	}
 
