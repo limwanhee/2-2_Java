@@ -6,7 +6,7 @@ import java.awt.event.MouseMotionListener;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class MouseEvent4 extends JFrame implements MouseListener, MouseMotionListener{
+public class MouseEvent4 extends JFrame implements MouseListener, MouseMotionListener{ //2개의 리스너를 받을 때는 이렇게
 	JLabel Lb;
 	public MouseEvent4() {
 		setTitle("마우스 이벤트4");
@@ -52,7 +52,7 @@ public class MouseEvent4 extends JFrame implements MouseListener, MouseMotionLis
 		Lb.setText("마우스가 움직입니다 ==> " + e.getX() + " ," + e.getY());
 	}
 	public static void main(String[] args) {
-		
+		MouseEvent4 obj = new MouseEvent4();
 
 	}
 
